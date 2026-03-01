@@ -1,0 +1,19 @@
+{
+  "name": "sunoco",
+  "version": "1.0.0",
+  "description": "Sunoco Service Center marketing site built with Tailwind CSS and modular JavaScript.",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:css",
+    "dev": "npm run watch:css",
+    "build:css": "tailwindcss -i ./css/styles.src.css -o ./css/styles.css",
+    "watch:css": "tailwindcss -i ./css/styles.src.css -o ./css/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "tailwindcss": "^4.2.1"
+  }
+}

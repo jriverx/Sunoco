@@ -1,0 +1,3 @@
+/* Tailwind source (editable). */
+@config "../tailwind.config.js";
+@import "tailwindcss";
